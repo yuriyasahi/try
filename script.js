@@ -46,3 +46,9 @@ yesBtn.onclick = () => {
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
 };
+
+const music = document.getElementById("bgMusic");
+
+  document.addEventListener("click", () => {
+    music.play();
+  }, { once: true });
