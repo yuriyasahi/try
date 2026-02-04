@@ -31,6 +31,7 @@ body{
 .letter-text{
     font-size: clamp(18px,4vw,24px);
     color: #ff7c92;
+    font-family: "Press Start 2P", "consolas", "sans-serif";
 }
 
 /* ---------- MAIN SCREEN ---------- */
@@ -57,6 +58,7 @@ h1{
     font-size: clamp(20px,5vw,32px);
     color: #ff7c92;
     animation: popIn 0.8s ease forwards;
+     font-family: "Press Start 2P", "consolas", "sans-serif";
 }
 
 .kitty{
@@ -79,9 +81,11 @@ h1{
 .final-text{
     display: none;
     font-size: clamp(16px,4vw,22px);
-    background: rgb(246,147,200);
+    background: rgba(251, 186, 221, 0.803);
     padding: 10px 20px;
     border-radius: 12px;
+    font-family: "Libre Baskerville", "consolas", "san-serif";
+    color: #a03468;
 }
 
 /* ---------- HEART RAIN ---------- */
